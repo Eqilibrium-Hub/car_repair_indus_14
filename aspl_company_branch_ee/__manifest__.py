@@ -19,8 +19,7 @@
     'currency': 'EUR',
     'version': '1.0.1',
     'depends': ['base', 'sale_management', 'stock', 'purchase', 'account', 'sale_stock',
-                'fleet','account_reports', 'stock_account'],
-                #'mrp'
+                'mrp', 'fleet','account_reports', 'stock_account'],
     'images': ['static/description/main_screenshot.png'],
     'data': [
         'security/branch_security.xml',
@@ -32,7 +31,7 @@
         'views/sale_view.xml',
         'views/purchase_view.xml',
         'views/account_view.xml',
-        #'views/mrp_view.xml',
+        'views/mrp_view.xml',
         'views/fleet_vehicle_view.xml',
         'views/product_view.xml',
         'views/res_company_view.xml',

@@ -15,7 +15,7 @@ from . import res_company
 from . import res_partner
 from . import sale
 from . import stock
-#from . import mrp
+from . import mrp
 from . import fleet_vehicle
 from . import account_partner_ledger
 from . import account_general_ledger
